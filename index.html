@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="contenedor1">
+        <p>Rick and Morty</p>
+        <ul>
+          <li id="todos">Todos</li>
+          <li id="mujeres">Mujer</li>
+          <li id="hombres">Hombre</li>
+          <li id="sinGenero">Sin genero</li>
+          <li id="noSeSabe">No se sabe</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <p>Total de personajes <span id="total-personajes"></span></p>
+      <div id="raiz" class="card-container">
+
+      </div>
+
+      <div class="container-paginador">
+        <p>Pagina actual: <span id="pagina-actual"></span></p>
+        <p>Total de páginas: <span id="total-paginas"></span></p>
+        
+        <div class="pagination">
+          <button id="first-page">Primera</button>
+          <button id="prev-page">-</button>
+          <button id="next-page">+</button>
+          <button id="last-page">Ultima</button>
+        </div>
+      </div>
+      <footer>
+        <p>&copy 2023 by Jorge Ezequiel Foco</p>
+    </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
